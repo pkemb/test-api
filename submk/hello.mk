@@ -1,0 +1,1 @@
+hello: CXXFLAGS += -DHELLO=\"hello\ cpp,\ this\ string\ define\ in\ hello.mk\"
