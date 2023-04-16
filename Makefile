@@ -18,7 +18,7 @@ progs_cpp := $(basename $(wildcard *.cpp))
 progs_c   := $(filter-out $(progs_special),$(progs_c))
 progs_cpp := $(filter-out $(progs_special),$(progs_cpp))
 
-.PHONY: all clean c help h $(progs_c) $(progs_cpp) $(progs_special)
+.PHONY: all clean c help h
 
 all: $(progs_c) $(progs_cpp) $(progs_special)
 
