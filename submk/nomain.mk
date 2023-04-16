@@ -5,7 +5,7 @@ nomain: LDFLAGS := -static -e nomain -lc
 clean_files += nomain.o
 
 # 重新定义规则
-nomain.o: nomain.c
+nomain.o: $(srcdir)/nomain.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 nomain: nomain.o
