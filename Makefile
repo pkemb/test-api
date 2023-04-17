@@ -5,7 +5,7 @@ LD       := $(CROSS)ld
 CFLAGS   += -g -O0 -Wall
 CXXFLAGS += -g -O0 -Wall
 CPPFLAGS +=
-LDFLAGS  += -pthread
+LDFLAGS  +=
 
 srcdir   := src
 submkdir := submk
